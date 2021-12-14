@@ -7,8 +7,6 @@ import qualified Data.Text as T
 import qualified Data.Text.Read as TR
 import Text.Parsec
 import Text.Parsec.Text
-import Data.Bool (bool)
-import Data.Tree (drawForest)
 
 type Pos = (Int, Int)
 
