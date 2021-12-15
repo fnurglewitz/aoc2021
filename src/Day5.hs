@@ -3,7 +3,6 @@
 
 module Day5 where
 
-import Data.Array ( Ix(inRange), Array, listArray, bounds, (!), elems, accum )
 import Data.List (group,sort)
 import qualified Data.Text as T
 import qualified Data.Text.Read as TR
