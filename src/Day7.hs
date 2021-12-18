@@ -22,7 +22,7 @@ parser = many1 $ do
 day7 :: IO ()
 day7 = do
     input <- readFile "data/day7/day7.txt"
-    case parse parser "day6" (T.pack input) of
+    case parse parser "day7" (T.pack input) of
         Left err -> error "shit"
         Right x -> do
             let sorted = L.sort x
